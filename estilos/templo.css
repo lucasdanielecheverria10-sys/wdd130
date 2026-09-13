@@ -1,7 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; /* Garante que os paddings não quebrem o tamanho dos blocos */
+    box-sizing: border-box;
+
 }
 
 body {
@@ -9,20 +10,24 @@ body {
     background-color: #eeeeee;
 }
 
-header, footer {
-    background-color: #333333; /* Corrigido de background-attachment para background-color */
+header,
+footer {
+    background-color: #333333;
+    /* Corrigido de background-attachment para background-color */
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
 header {
-    font-size: 1.5em; /* Corrigido de font para font-size */
+    font-size: 1.5em;
+    /* Corrigido de font para font-size */
 }
 
 main {
     margin: 0 auto;
-    width: 600px; /* Ajustado para 600px para alinhar com o tamanho da imagem */
+    width: 600px;
+    /* Ajustado para 600px para alinhar com o tamanho da imagem */
 }
 
 h1 {
