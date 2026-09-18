@@ -1,12 +1,8 @@
 :root {
     --cor-primaria: #055a05;
-    /* verde-floresta */
     --cor-secundaria: #f4a261;
-    /* bege médio */
     --cor-destaque1: #264653;
-    /* azul-escuro acinzentado */
     --cor-destaque2: #e9c46a;
-    /* amarelo-claro dourado */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -29,6 +25,31 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+/* TÍTULOS */
 h1,
 h2 {
     font-family: var(--fonte-titulo);
@@ -41,7 +62,6 @@ h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
-    text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
     color: #fff;
@@ -55,20 +75,11 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
-    text-decoration: none;
-}
-
-.redes-sociais img {
-    width: 40px;
-    height: 40px;
-}
-
 .hero {
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
@@ -76,9 +87,39 @@ article {
 
 .hero article {
     position: absolute;
+    bottom: 25px;
+    left: 40px;
+    right: 40px;
+    background-color: rgba(233, 196, 106, 0.9);
+    padding: 16px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.historia {
+    margin-top: 25px;
+}
+
+.historia p {
+    text-align: left;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais img {
+    width: 250px;
+    height: 250px;
 }
