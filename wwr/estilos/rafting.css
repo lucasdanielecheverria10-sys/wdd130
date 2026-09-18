@@ -49,7 +49,10 @@ nav a {
     font-weight: bold;
 }
 
-/* TÍTULOS */
+nav a:hover {
+    color: var(--cor-secundaria);
+}
+
 h1,
 h2 {
     font-family: var(--fonte-titulo);
@@ -90,7 +93,7 @@ article {
     bottom: 25px;
     left: 40px;
     right: 40px;
-    background-color: rgba(233, 196, 106, 0.9);
+    background-color: var(--cor-destaque2);
     padding: 16px;
 }
 
