@@ -1,4 +1,4 @@
-/* Reset básico do projeto */
+/*resetar css do projeto*/
 * {
     margin: 0;
     padding: 0;
@@ -15,24 +15,16 @@ body {
 
 nav {
     background-color: steelblue;
-    padding: 10px;
-    text-align: center;
 }
 
 nav a {
     color: white;
     padding: 10px;
-    display: inline-block;
+    display: block;
 }
 
 h1 {
     color: steelblue;
-    margin-bottom: 1rem;
-}
-
-main {
-    max-width: 840px;
-    margin: 0 auto;
 }
 
 main img {
@@ -48,32 +40,37 @@ main img {
 
 p {
     padding: 0;
-    margin-bottom: 1rem;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem auto;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
 aside h2 {
-    margin-bottom: 1rem;
+    position: relative;
+    top: 70px;
+    left: 120px;
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+.caixa {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin: 1em;
+    background-color: #eee;
 }
 
 .identacao {
