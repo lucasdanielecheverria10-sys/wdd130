@@ -3,6 +3,10 @@ body {
     margin: 1rem;
 }
 
+nav li {
+    flex: 1 1 auto
+}
+
 .flex-container {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
