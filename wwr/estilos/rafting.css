@@ -88,6 +88,10 @@ article {
     height: auto;
 }
 
+.hero h1 {
+    position: absolute;
+}
+
 .hero article {
     position: absolute;
     bottom: 25px;
@@ -112,17 +116,17 @@ article {
     text-align: left;
 }
 
-.redes-sociais {
+.socialmedia {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 75px;
     height: 75px;
 }
