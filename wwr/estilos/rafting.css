@@ -171,3 +171,136 @@ article {
     height: 200px;
     object-fit: cover;
 }
+
+/* ============================= */
+/* PÁGINA FALE CONOSCO           */
+/* ============================= */
+
+.informacoes-contato {
+    margin: 30px 0;
+}
+
+.informacoes-contato h1 {
+    position: static;
+    width: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+    opacity: 1;
+    background-color: var(--cor-destaque1);
+    color: white;
+}
+
+.info-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-box p {
+    margin: 8px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map iframe {
+    width: 600px;
+    height: 350px;
+    border: none;
+    max-width: 100%;
+}
+
+/* ============================= */
+/* EQUIPE                        */
+/* ============================= */
+
+.funcionarios {
+    margin: 30px 0;
+}
+
+.equipe {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.equipe figure {
+    flex: 1;
+    text-align: center;
+}
+
+.equipe img {
+    width: 100%;
+    max-width: 220px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.equipe figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Fale conosco */
+.selecionar-forma-contato {
+    margin: 40px auto;
+    max-width: 650px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: var(--fonte-body);
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.radio-group label {
+    margin: 0;
+    padding: 3px;
+}
+
+.checkbox-item label {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form button {
+    width: 180px;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-primaria);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--cor-destaque1);
+}
