@@ -116,17 +116,17 @@ article {
     text-align: left;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 75px;
     height: 75px;
 }
