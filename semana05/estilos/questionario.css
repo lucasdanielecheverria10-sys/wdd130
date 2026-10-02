@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header,
+footer {
+    background-color: #002e5d;
+    /* Azul escuro padrão BYU */
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1,
+footer p {
+    margin: 0;
+}
+
+/* --- Container Principal --- */
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Estilização do Formulário --- */
+form {
+    padding: 1rem 0;
+}
+
+fieldset {
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+}
+
+legend {
+    font-weight: bold;
+    color: #002e5d;
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+/* --- Alinhamento e Espaçamento dos Itens --- */
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Design móvel primeiro (Stack) */
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Aplica layout de duas colunas em telas maiores (Desktop) */
+@media (min-width: 500px) {
+    .form-item {
+        grid-template-columns: 180px 1fr;
+        align-items: center;
+    }
+}
+
+label {
+    font-weight: 500;
+}
+
+/* --- Inputs e Seletores --- */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Garante que o padding não quebre a largura */
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+    border-color: #002e5d;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 46, 93, 0.3);
+}
+
+/* --- Botão de Envio --- */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #002e5d;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #004487;
+    /* Tom de azul um pouco mais claro ao passar o mouse */
+}

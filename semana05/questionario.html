@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS questinario | WDD 130</title>
+    <meta name="description"
+      content="questinario form practice for WDD 130 Web Fundamentals course at BYU-Pathway.">
+    <meta name="author" content="Seu Nome Aqui">
+    <!-- Vinculação com o arquivo CSS da semana -->
+    <link rel="stylesheet" href="estilos/questionario.css">
+</head>
+
+<body>
+    <header>
+        <h1>Online HTML/CSS questinario</h1>
+    </header>
+
+    <main>
+        <form action="#" method="get">
+            <!-- Grupo 1: Informações do Aluno -->
+            <fieldset>
+                <legend>Informações do Aluno</legend>
+                <div class="form-item">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="student_name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Endereço de email:</label>
+                    <input type="email" id="email" name="student_email" required>
+                </div>
+            </fieldset>
+
+            <!-- Grupo 2: Perguntas do questinario -->
+            <fieldset>
+                <legend>Perguntas do questinarios</legend>
+
+                <!-- Pergunta Texto/Input -->
+                <div class="form-item">
+                    <label for="q1">1. O que significa HTML?</label>
+                    <input type="text" id="q1" name="html_meaning" required>
+                </div>
+
+                <!-- Pergunta Numérica / Opção -->
+                <div class="form-item">
+                    <label for="q2">2. Qual caractere é usado para indicar uma tag final?</label>
+                    <input type="text" id="q2" name="end_tag" max="1" placeholder="/" required>
+                </div>
+
+                <!-- Pergunta de Seleção (Dropdown) -->
+                <div class="form-item">
+                    <label for="q3">3. Escolha o elemento HTML correto para o título maior:</label>
+                    <select id="q3" name="heading_element" required>
+                        <option value="" disabled selected>Selecione um...</option>
+                        <option value="head">&lt;head&gt;</option>
+                        <option value="h1">&lt;h1&gt;</option>
+                        <option value="h6">&lt;h6&gt;</option>
+                        <option value="heading">&lt;heading&gt;</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <!-- Botão de Envio -->
+            <button type="submit">Enviar Questinario</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2026 | HTML/CSS Atividade de Formulário de Questinario | BYU-Pathway Worldwide</p>
+    </footer>
+</body>
+
+</html>

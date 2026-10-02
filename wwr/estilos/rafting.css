@@ -172,10 +172,9 @@ article {
     object-fit: cover;
 }
 
-/* ============================= */
-/* PÁGINA FALE CONOSCO           */
-/* ============================= */
+/* FALE CONOSCO  */
 
+/* informacoes de contato  */
 .informacoes-contato {
     margin: 30px 0;
 }
@@ -186,13 +185,14 @@ article {
     padding: 15px;
     margin-bottom: 20px;
     opacity: 1;
-    background-color: var(--cor-destaque1);
+    background-color: var(--cor-primaria);
     color: white;
 }
 
 .info-box {
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .info-box p {
@@ -212,10 +212,7 @@ article {
     max-width: 100%;
 }
 
-/* ============================= */
-/* EQUIPE                        */
-/* ============================= */
-
+/* equipe  */
 .funcionarios {
     margin: 30px 0;
 }
