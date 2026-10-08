@@ -443,7 +443,7 @@ td {
 
 thead {
     background-color: var(--cor-destaque1);
-    color: #8dc5eb;
+    color: #fff;
 }
 
 tr:nth-child(even) {
