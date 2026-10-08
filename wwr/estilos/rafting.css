@@ -403,7 +403,7 @@ article {
 
 /* tabelas do passeio */
 .trips-intro > h1 {
-    background-color: #055a05;
+    background-color: var(--cor-primaria);
 }
 
 .trips-intro > nav {
